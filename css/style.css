@@ -1,4 +1,4 @@
-/* //WEBSITE WIDTH */
+/* //PAGE HEIGHTS */
 #index_height {
   height: 1200px;
 }
@@ -15,15 +15,17 @@
   height: 1800px;
 }
 
+/* //LINK TO LINKIN PARK FONT: */
+@font-face {
+  font-family: "LinkinPark";
+  src: url("/linkinpark/CSS/LinkinPark.ttf") format("truetype");
+}
+
+/* PAGE BACKGROUNDS:  */
 body,
 html {
   background-color: black;
   height: 100%;
-}
-
-@font-face {
-  font-family: "LinkinPark";
-  src: url("/linkinpark/CSS/LinkinPark.ttf") format("truetype");
 }
 
 .night_sky {
@@ -41,7 +43,6 @@ html {
 }
 
 /* //SOCIAL MEDIA BAR  */
-
 #social_media_bar {
   height: 80px;
 }
@@ -84,7 +85,6 @@ html {
 }
 
 /* //LINK FORMAT */
-
 ul.nav li a,
 ul.nav li a:visited {
   color: rgba(48, 14, 14, 0.938) !important;
@@ -99,6 +99,12 @@ ul.nav li.active a {
   color: rgb(250, 247, 246) !important;
 }
 
+/* //NAVIGATION BAR: */
+#navigation_bar {
+  background-color: #e9dbd0ec;
+  height: 100px;
+}
+
 #nav-option {
   font-family: "Montserrat", sans-serif;
   font-weight: 900;
@@ -107,10 +113,8 @@ ul.nav li.active a {
   width: 12%;
   text-align: center;
   margin-top: 50px;
-  /* background-color:#f3b888e1; */
 }
 
-/* //NAVIGATION BAR: */
 #logo {
   margin-top: 10px;
   margin-left: 30px;
@@ -121,21 +125,7 @@ ul.nav li.active a {
   float: left;
 }
 
-#navigation_bar {
-  background-color: #e9dbd0ec;
-  height: 100px;
-}
-
-.footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: red;
-  color: white;
-  text-align: center;
-}
-
+/* //INDEX/HOME PAGE: */
 #home_name {
   margin-top: 30px;
   color: white;
@@ -347,7 +337,6 @@ ul.nav li.active a {
   color: black;
   width: 12%;
   text-align: center;
-  /* background-color:#f3b888e1; */
 }
 
 #store_name {
@@ -378,7 +367,6 @@ ul.nav li.active a {
 .item_container {
   float: left;
   width: 28%;
-  /* position: relative; */
   text-align: center;
   color: white;
   margin-left: 4%;
