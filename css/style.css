@@ -21,6 +21,13 @@
   src: url("css/linkinpark.ttf") format("truetype");
 }
 
+
+@font-face {
+  font-family: "LinkinPark";
+  src: url("linkinpark.ttf") format("truetype");
+}
+
+
 /* PAGE BACKGROUNDS:  */
 body,
 html {
