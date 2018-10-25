@@ -18,7 +18,7 @@
 /* //LINK TO LINKIN PARK FONT: */
 @font-face {
   font-family: "LinkinPark";
-  src: url("/linkinpark/css/linkinpark.ttf") format("truetype");
+  src: url("css/linkinpark.ttf") format("truetype");
 }
 
 /* PAGE BACKGROUNDS:  */
